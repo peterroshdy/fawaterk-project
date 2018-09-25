@@ -1,0 +1,41 @@
+@mixin FontStyle($FSize, $FWeight) {
+    font-size: $FSize;
+    font-weight: $FWeight;
+}
+
+@mixin BGImage($ImgURL){
+    background: url($ImgURL);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+$Gradient_Dark: linear-gradient(45deg, #2f333a 0%, #41444e 100%);
+$Gradient_RPurple: linear-gradient(45deg, #ef3842 0%, #a64ef4 100%);
+$Gradient_Purple: linear-gradient(90deg, #351f65 0%, #7a2a97 100%);
+$Gradient_Orange: linear-gradient(90deg, #f04634 0%, #f7931e 100%);
+$Gradient_POrange: linear-gradient(90deg, #ea4c89 0%, #f8832d 100%);
+$Gradient_Green: linear-gradient(90deg, #4ea244 0%, #9cd303 100%);
+$Gradient_Blue: linear-gradient(90deg, #0081b3 0%, #1bc3c3 100%);
+
+
+$Black: #000;
+$Super-Dark-Grey: #191919;
+$Semi-Dark-Grey: #2a2a2a;
+$Dark-Grey: #2f333a;
+$Grey: #525252;
+$Light-Grey: #696969;
+$Super-Light-Grey: #f5f5f5;
+$White: #fff;
+
+$Dark-Blue: #1b1c24;
+$Mix-Blue: #2e2e58;
+$Red: #ef3842;
+$Canary: #f2a20c;
+
+$Light: 300;
+$Regular: 400;
+$Medium: 500;
+$SemiBold: 600;

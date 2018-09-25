@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Fawaterk'=>'Fawaterk',
+    'FA'=>'FA',
+    'Setup_Your' => 'Setup Your Store',
+    'Arabic' => 'Arabic',
+    'English' => 'English',
+    'Profile' => 'Profile',
+    'Logout' => 'Logout',
+    'Dashboard' => 'Dashboard',
+    'Products' => 'Products',
+    'New_Products' => 'New Products',
+    'All_Products' => 'All Products',
+    'Invoices' => 'Invoices',
+    'New_Invoice' => 'New Invoice',
+    'All_Invoices' => 'All Invoices',
+    'Paid_Invoices' => 'Paid Invoices',
+    'Unpaid_Invoices' => 'Unpaid Invoices', 
+    'Customers' => 'Customers',
+    'Add_Customer' => 'Add Customer',
+    'All_Customers' => 'All Customers',
+    'Orders' => 'Orders',
+    'Withdraw' => 'Withdraw',
+    'Request_Withdraw' => 'Request Withdraw',
+    'Withdraw_Requests' => 'Withdraw Requests',
+    'Tickets' => 'Tickets',
+    'New_Ticket' => 'New Ticket',
+    'My_Tickets' => 'My Tickets',
+    'Store_Settings' => 'Store Settings'
+];

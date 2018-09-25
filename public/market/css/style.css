@@ -1,0 +1,127 @@
+/*==========================================================================
+Project: Fawaterk Store
+Version: 1.0
+Last change: 31/3/2018
+Author:	Fantaziia
+Author URI: https://fantaziia.com/
+
+:: Table of Conetents ::
+
+        01. Common Elments
+        02. Home page
+        03. Category page
+        04. Product page
+        05. Cart Page
+        06. Account Page
+
+==========================================================================*/
+/*==========================================================================
+            01. Common Elments
+==========================================================================*/
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+#navbarsItems ul li a {
+  color: #fff !important;
+}
+
+#navbarsItems ul li a hover {
+  color: #fff !important;
+}
+
+footer {
+  background-color: #f5f5f5;
+}
+
+footer p {
+  line-height: 60px;
+}
+
+/*==========================================================================
+            02. Home page
+==========================================================================*/
+.seller-info img {
+  max-width: 200px;
+}
+
+.seller-info p {
+  margin-top: 10px;
+}
+
+.products-pages {
+  margin: 30px auto;
+}
+
+#Payment-Methods,
+#Shipping-Cost {
+  margin: auto;
+}
+
+.page-item:last-child .page-link {
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+}
+
+.page-item:first-child .page-link {
+  margin-left: -1px;
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.page-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.product-info {
+  margin-top: 30px;
+}
+
+.product-info h1 {
+  margin-bottom: 20px;
+}
+
+.product-info p {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-pic {
+  margin-bottom: 20px;
+}
+
+.widget {
+  margin-top: 40px;
+}
+
+.widget:first-child {
+  margin-top: 0px;
+}
+
+.widget .active {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.widget-product {
+  margin-right: 10px;
+}
+
+.widget-product h1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ask-seller .media-body textarea {
+  margin-right: 10px;
+}
+
+.checkout-nav {
+  margin: 50px auto;
+}

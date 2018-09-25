@@ -1,0 +1,178 @@
+@import "variables";
+/*==========================================================================
+:: Table of Conetents ::
+
+        01. Template Reset
+        02. Colors & Gradients
+        03. Typography
+        04. Aligment & Positions
+        05. Keyframes
+
+==========================================================================*/
+/*==========================================================================
+            01. Template Reset
+==========================================================================*/
+body {
+    font-family: 'Cairo', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}a{text-decoration: none !important; cursor: pointer;}a:hover{text-decoration: none !important}
+table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}legend{color:#000}input:focus,select:focus,textarea:focus,button:focus{outline: none}
+
+a{
+    color: #000;
+}
+/*==========================================================================
+            02. Colors & Gradients
+==========================================================================*/
+.trans-black{
+    background-color: rgba(0, 0, 0, 0.6);
+    -webkit-backdrop-filter: blur(30px);
+}
+
+.black{
+    color: $Black;
+}
+
+.super-dark-grey {
+    color: $Super-Dark-Grey;
+}
+
+.semi-dark-grey {
+    color: $Semi-Dark-Grey;
+}
+
+.-dark-grey {
+    color: $Dark-Grey;
+}
+
+.grey {
+    color: $Grey;
+}
+
+.light-grey {
+    color: $Light-Grey;
+}
+
+.super-light-grey {
+    color: $Super-Light-Grey;
+}
+
+.white {
+    color: $White !important;
+}
+
+
+/*==========================================================================
+            03. Typography
+==========================================================================*/
+
+.title12{
+    @include FontStyle(12px, $SemiBold);
+}
+
+.title14{
+    @include FontStyle(14px, $SemiBold);
+}
+
+.title16{
+    @include FontStyle(16px, $Medium);
+}
+
+.title18{
+    @include FontStyle(18px, $Medium);
+}
+
+.title-20{
+    @include FontStyle(22px, $Medium);
+}
+
+.title-22{
+    @include FontStyle(22px, $Medium);
+}
+
+.title-24{
+    @include FontStyle(24px, $Medium);
+}
+
+.title-26{
+    @include FontStyle(26px, $Medium);
+}
+
+.title-28{
+    @include FontStyle(28px, $Medium);
+}
+
+.title-35{
+    @include FontStyle(35px, $Medium);
+}
+
+.title-30{
+    @include FontStyle(30px, $Medium);
+}
+
+.title-40{
+    @include FontStyle(40px, $Medium);
+}
+
+.title-45{
+    @include FontStyle(45px, $Medium);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/*==========================================================================
+            04. Aligment & Positions
+==========================================================================*/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.img-round{
+    border-radius: 500px;
+}
+
+.mr-top-10{
+    margin-top: 10px;
+}
+
+.mr-top-20{
+    margin-top: 20px;
+}
+
+.mr-top-30{
+    margin-top: 30px;
+}
+/*==========================================================================
+            05. Keyframes
+==========================================================================*/

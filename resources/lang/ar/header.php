@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Fawaterk'=>'فواتيرك',
+    'FA'=>'فو',
+    'Setup_Your' => 'اعداد متجرك',
+    'Arabic' => 'العربية',
+    'English' => 'الانجليزية',
+    'Profile' => 'الصفحة الشحصية',
+    'Logout' => 'تسجيل الخروح',
+    'Dashboard' => 'لوحة التحكم',
+    'Products' => 'المنتجات',
+    'New_Products' => 'المنتجات الجديدة',
+    'All_Products' => 'جميع المنتجات',
+    'Invoices' => 'الفواتير',
+    'New_Invoice' => 'الفواتير الجديدة',
+    'All_Invoices' => 'جميع الفواتير',
+    'Paid_Invoices' => 'الفواتير المدفوعة',
+    'Unpaid_Invoices' => 'الفواتير الغير مدفوعة', 
+    'Customers' => 'العملاء',
+    'Add_Customer' => 'اضافة عميل',
+    'All_Customers' => 'جميع العملاء',
+    'Orders' => 'الطلبات',
+    'Withdraw' => 'سحب',
+    'Request_Withdraw' => 'طلب سحب',
+    'Withdraw_Requests' => 'سحب الطلبات',
+    'Tickets' => 'التذاكر',
+    'New_Ticket' => 'التذاكر الجديدة',
+    'My_Tickets' => 'التذاكر الخاصة بي',
+    'Store_Settings' => 'اعدادات المتجر'
+];
